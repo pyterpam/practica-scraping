@@ -1,19 +1,24 @@
-## Web scraping (práctica 1)
+# tot
+Tourism on Twitter
+Menciones de turismo en twitter.
+  - Campos:
+    - Periodo de tiempo: noviembre 2017
+    - Recolección: Mediante aplicativo programado en Nodejs, el cual abre un socket contra la api de twitter usando el servicio  "statuses/filter"
+  - Proceso: 
+   1.- Escucha activa en twitter y almacenamiento en fichero de los datos en formato json.
+   2.- Filtrado de campos elegidos y conversión de json a csv.
 
-## Descripción
-Práctica 1 sobre web scraping, de la asignatura de Tipología y ciclo de vida de datos.
+ - Agradecimientos: API Twitter
+  - Programa base nodejs
+  - Json2csv
+  
+- Propietario: Libre
+- Buscar la mención a una población en los mensajes.
+ 
+- Licencia: Released Under CC0: Public Domain License.
+ 
+- Código: Javascript
 
-## Equipo de trabajo
-Análisis y programación Pedro Vidal Balboa
+-
 
-## Lenguaje
-Javascript (EMACScrip 6)
 
-## Entorno
-NodeJs - https://nodejs.org/es/
-
-## Plugins
-Cheerio - https://github.com/cheeriojs/cheerio
-
-## Editor
-Visual Studio Code - https://code.visualstudio.com/
